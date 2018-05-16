@@ -5,7 +5,7 @@ import { PortafolioComponent } from './components/portafolio/portafolio.componen
 import { PortafolioItemComponent } from './components/portafolio-item/portafolio-item.component';
 
 const app_routes: Routes =  [
-    { path: '', component: PortafolioComponent },
+    { path: 'home', component: PortafolioComponent },
     { path: 'about', component: AboutComponent },
     { path: 'portafolio-item', component: PortafolioItemComponent },
     { path: '**', component: PortafolioComponent }

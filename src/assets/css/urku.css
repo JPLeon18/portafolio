@@ -1980,7 +1980,14 @@ body {
 }
 .rk-menu__item.active {
   color: #a0a0a0;
+  border-top: 3px solid #ccc;
+  margin-top: 5px;
 }
+.rk-menu__item:hover{
+  border-top: 3px solid #ccc;
+  transition: 100ms;
+}
+
 .rk-menu__link {
   padding-bottom: 4.2rem;
 }
